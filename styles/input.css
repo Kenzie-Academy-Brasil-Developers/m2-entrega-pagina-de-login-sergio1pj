@@ -1,18 +1,15 @@
 .input-group {
     display: flex;
     flex-direction: column;
-    gap: 8px;
-  }
-  
-  .input-group label {
+    gap: 16px;
+}
+.input-group label {
     color: var(--color-grey-1);
-  }
-  
-  .input-group input {
+}
+.input-group input {
     height: 44px;
     padding-left: 16px;
     border-radius: 8px;
-    border: 2px solid #fff;
     background-color: var(--color-grey-4);
     font-size: 16px;
-  }
+}
