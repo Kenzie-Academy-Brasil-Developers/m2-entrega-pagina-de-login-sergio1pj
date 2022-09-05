@@ -1,0 +1,20 @@
+.title-1 {
+    font-size: var(--font-title-1);
+    font-family: var(--font-family-1);
+}
+.title-2 {
+    font-size: var(--font-title-2);
+    font-family: var(--font-family-1);
+}
+.text-1 {
+    font-size: var(--font-text-1);
+    font-family: var(--font-family-1);
+}
+.text-2 {
+    font-size: var(--font-text-2);
+    font-family: var(--font-family-1);
+}
+.text-3 {
+    font-size: var(--font-text-3);
+    font-family: var(--font-family-1);
+}
