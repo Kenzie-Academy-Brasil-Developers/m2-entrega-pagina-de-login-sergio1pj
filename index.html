@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="./src/styles/text.css">
     <link rel="stylesheet" href="./src/styles/color.css">
     <link rel="stylesheet" href="./src/styles/index.css">
+    <link rel="stylesheet" href="./src/styles/modal.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <main class="login">
+    <main class="login-wrapper">
         <div class="container">
             <div class="column1 bg-color-primary">
                 <img src="./src/assets/Logo.svg" alt="logo Kenzie">
@@ -30,10 +31,22 @@
                     <label for="password">Senha</label>
                     <input type="password" id="password" placeholder="Coloque sua senha">
                 </div>
-                <p>Esqueceu sua senha?</p>
+                <p>Esqueceu sua senha?<span id="modal-btn">Clique aqui</span></p>
                 <button type="button" class="button-primary">Logar</button>
             </form>
         </div>
     </main>
+    <div class="modal-wrapper" id="modal-recovery">
+        <div class="modal">
+            <div class="modal-header">
+                <h3 class="modal-title">Title</h3>
+                <button type="button" class="button-close">X</button>
+            </div>
+            <div class="modal-body">
+                <p class="modal-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+            </div>
+        </div>
+    </div>
+    <script src="./src/scripts/index.js"></script>
 </body>
 </html>

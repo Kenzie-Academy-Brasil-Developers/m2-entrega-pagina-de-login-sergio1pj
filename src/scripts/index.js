@@ -1,16 +1,16 @@
 class Modal {
     static showModal() {
         const modalBtn = document.getElementById('modal-btn');
-        const modal = document.getElementById('modal');
+        const modalRecovery = document.getElementById('modal-recovery');
         modalBtn.addEventListener('click', () => {
-            modal.classList.toogle('hidden');
+            modalRecovery.classList.toggle('modal-wrapper');
         });
     }
     static closeModal() {
-        const closeBtn = document.getElementById('close');
-        const modal = document.getElementById('modal');
+        const closeBtn = document.querySelector('.button-close');
+        const modalRecovery = document.getElementById('modal-recovery');
         closeBtn.addEventListener('click', () => {
-            modal.classList.toogle('hidden');
+            modalRecovery.classList.toggle('modal-wrapper');
         });
     }
 }
