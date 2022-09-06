@@ -9,6 +9,10 @@
     font-size: 16px;
     font-weight: 500;
 }
+.button-primary:hover {
+    background-color: #fff;
+    color: var(--color-primary);
+}
 .button-close {
     height: 32px;
     width: 32px;

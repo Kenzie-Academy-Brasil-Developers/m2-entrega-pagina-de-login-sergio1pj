@@ -25,6 +25,16 @@
     font-family: var(--font-family-1);
     gap: 16px;
 }
+#modal-btn {
+    color: var(--color-primary);
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+#modal-btn:hover {
+    text-decoration: underline;
+}
 @media (min-width: 768px) {
     .container {
         display: flex;
