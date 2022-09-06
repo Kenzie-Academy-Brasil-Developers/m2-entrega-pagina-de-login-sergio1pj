@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="./styles/global.css">
-    <link rel="stylesheet" href="./styles/flex.css">
-    <link rel="stylesheet" href="./styles/input.css">
-    <link rel="stylesheet" href="./styles/button.css">
-    <link rel="stylesheet" href="./styles/text.css">
-    <link rel="stylesheet" href="./styles/color.css">
-    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./src/styles/global.css">
+    <link rel="stylesheet" href="./src/styles/input.css">
+    <link rel="stylesheet" href="./src/styles/button.css">
+    <link rel="stylesheet" href="./src/styles/text.css">
+    <link rel="stylesheet" href="./src/styles/color.css">
+    <link rel="stylesheet" href="./src/styles/index.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,11 +15,11 @@
 <body>
     <main class="login">
         <div class="container">
-            <div class="column1">
-                <h1 class="title-1 color-grey-1">Kenzie Academy</h1>
-                <p class="text-1 color-grey-1">Torne-se um desenvolvedor em 12 meses com o curso de programação online da Kenzie Academy Brasil e comece a pagar após estar empregado.</p>
+            <div class="column1 bg-color-primary">
+                <h1 class="title-1 color-grey-6">Kenzie Academy</h1>
+                <p class="text-1 color-grey-6">Aprenda e conquiste o mundo!</p>
             </div>
-            <form class="login__form">
+            <form class="column2 bg-color-grey-6">
                 <h2 class="title-2 color-grey-1">Login</h2>
                 <div class="input-group">
                     <label for="email">Email</label>
@@ -30,9 +29,10 @@
                     <label for="password">Password</label>
                     <input type="password" id="password" placeholder="Coloque sua senha">
                 </div>
-                <span>Esqueceu sua senha?</span>
+                <p>Esqueceu sua senha?</p>
                 <button type="button" class="button-primary">Logar</button>
             </form>
+        </div>
     </main>
 </body>
 </html>
